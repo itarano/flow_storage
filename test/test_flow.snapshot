@@ -10,7 +10,15 @@
         "componentType" : "PROCESS_GROUP",
         "connections" : [ ],
         "controllerServices" : [ ],
-        "funnels" : [ ],
+        "funnels" : [ {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "f7739bf9-0647-302c-ab89-edc26b8b595f",
+          "identifier" : "ce133901-499b-3859-9f1c-d7caf98a24bf",
+          "position" : {
+            "x" : 775.5,
+            "y" : 465.5
+          }
+        } ],
         "identifier" : "f7739bf9-0647-302c-ab89-edc26b8b595f",
         "inputPorts" : [ ],
         "labels" : [ ],

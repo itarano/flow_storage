@@ -1,5 +1,12 @@
 flows:
-  e0d4fc36-80a4-4e40-9530-842fd36964da: {ver: 1, file: test_flow.snapshot, comments: first
-      version, author: anonymous, created: 1590089515951, flowName: test_flow, flowDesc: xxx}
+  e0d4fc36-80a4-4e40-9530-842fd36964da:
+    ver: 2
+    file: test_flow.snapshot
+    comments: |
+      second commit
+    author: anonymous
+    created: 1590094561798
+    flowName: test_flow
+    flowDesc: xxx
 layoutVer: 1
 bucketId: e67b7f5d-c16e-4fef-85bb-8977e68da48e
