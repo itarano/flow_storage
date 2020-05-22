@@ -11,14 +11,14 @@
         "connections" : [ ],
         "controllerServices" : [ ],
         "funnels" : [ ],
-        "identifier" : "724a9a7b-cd7b-3437-b6a7-256faf3f833f",
+        "identifier" : "f8adcacb-d5d1-324d-9238-ae5a9101ab93",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "test-subprocessgroup",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 632.0,
-          "y" : 584.0
+          "x" : 295.0,
+          "y" : 61.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -33,7 +33,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "724a9a7b-cd7b-3437-b6a7-256faf3f833f",
+          "groupIdentifier" : "f8adcacb-d5d1-324d-9238-ae5a9101ab93",
           "identifier" : "51a268e5-be2b-3958-bd3f-df345b980b91",
           "name" : "AttributesToCSV",
           "penaltyDuration" : "30 sec",
@@ -45,7 +45,8 @@
             "null-value" : "false",
             "include-core-attributes" : "true",
             "destination" : "flowfile-attribute",
-            "include-schema" : "false"
+            "include-schema" : "false",
+            "attribute-list" : "${ddd}"
           },
           "propertyDescriptors" : {
             "null-value" : {
@@ -94,7 +95,9 @@
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
-        "variables" : { }
+        "variables" : {
+          "ddd" : "ddd"
+        }
       },
       "flowEncodingVersion" : "1.0",
       "parameterContexts" : { }
