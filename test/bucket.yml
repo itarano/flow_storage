@@ -1,4 +1,7 @@
 flows:
+  a1ff0320-05e4-4091-b1ff-a11456d9877f: {ver: 1, file: test-subprocessgroup.snapshot,
+    comments: 1 commit, author: anonymous, created: 1590140375510, flowName: test-subprocessgroup,
+    flowDesc: xx}
   e0d4fc36-80a4-4e40-9530-842fd36964da: {ver: 3, file: test_flow.snapshot, comments: 3
       version, author: anonymous, created: 1590140245141, flowName: test_flow, flowDesc: xxx}
 layoutVer: 1
