@@ -1,4 +1,6 @@
 flows:
+  4d2fdaff-ec3b-44d4-a5b8-9383d327d809: {ver: 1, file: xx.snapshot, comments: '',
+    author: anonymous, created: 1590686883143, flowName: xx, flowDesc: ''}
   7d348513-1e2b-494e-a602-37dfa2fb1156: {ver: 1, file: test_other.snapshot, comments: first
       commit, author: anonymous, created: 1590683928241, flowName: test other, flowDesc: ''}
 layoutVer: 1
